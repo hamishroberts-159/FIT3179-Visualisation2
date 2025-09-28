@@ -38,7 +38,7 @@ Canada,CA,38516736,25
 Cape Verde,CV,603901,0
 Caribbean Netherlands,BQ,30397,0
 Cayman Islands,KY,65483,1
-Central African Republic,CF,5552228,0
+Central African Rep.,CF,5552228,0
 Chad,TD,18523165,0
 Chile,CL,18549457,1
 China,CN,1413142846,6
@@ -194,7 +194,7 @@ Solomon Islands,SB,714766,0
 Somalia,SO,12693796,0
 South Africa,ZA,58048332,5
 South Korea,KR,51966948,0
-South Sudan,SS,12118379,0
+S. Sudan,SS,12118379,0
 Spain,ES,47222613,6
 Sri Lanka,LK,23326272,1
 Sudan,SD,49197555,0
@@ -231,7 +231,7 @@ Uzbekistan,UZ,31360836,2
 Vanuatu,VU,313046,0
 Vatican City,VA,1000,0
 Venezuela,VE,30518260,1
-Viet Nam,VN,104799174,16
+Vietnam,VN,104799174,16
 Wallis And Futuna,WF,15929,0
 West Bank,XW,2949246,0
 Western Sahara,EH,565581,0
