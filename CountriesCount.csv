@@ -1,0 +1,240 @@
+Country,ID,Population,Count,_merge
+Afghanistan,AF,39232003,0,left_only
+Albania,AL,3101621,0,left_only
+Algeria,DZ,44758398,0,left_only
+American Samoa,AS,44620,0,left_only
+Andorra,AD,85468,0,left_only
+Angola,AO,35981281,0,left_only
+Anguilla,AI,19079,0,left_only
+Antigua And Barbuda,AG,101489,0,left_only
+Argentina,AR,46621847,2,both
+Armenia,AM,2989091,1,both
+Aruba,AW,123702,1,both
+Australia,AU,26461166,11,both
+Austria,AT,8940860,1,both
+Azerbaijan,AZ,10420515,0,left_only
+Bahrain,BH,1553886,0,left_only
+Bangladesh,BD,167184465,0,left_only
+Barbados,BB,303431,1,both
+Belarus,BY,9383853,0,left_only
+Belgium,BE,11913633,1,both
+Belize,BZ,419137,0,left_only
+Benin,BJ,14219908,0,left_only
+Bermuda,BM,72576,0,left_only
+Bhutan,BT,876181,0,left_only
+Bolivia,BO,12186079,0,left_only
+Bosnia And Herzegovina,BA,3807764,0,left_only
+Botswana,BW,2417596,1,both
+Brazil,BR,218689757,4,both
+British Virgin Islands,VG,39369,0,left_only
+Brunei,BN,484991,0,left_only
+Bulgaria,BG,6827736,1,both
+Burkina Faso,BF,22489126,0,left_only
+Burundi,BI,13162952,0,left_only
+Cambodia,KH,16891245,1,both
+Cameroon,CM,30135732,0,left_only
+Canada,CA,38516736,25,both
+Cape Verde,CV,603901,0,left_only
+Caribbean Netherlands,BQ,30397,0,left_only
+Cayman Islands,KY,65483,1,both
+Central African Republic,CF,5552228,0,left_only
+Chad,TD,18523165,0,left_only
+Chile,CL,18549457,1,both
+China,CN,1413142846,6,both
+Chinese Taipei,TW,23588613,5,both
+Christmas Island,CX,2205,0,left_only
+Cocos (Keeling) Islands,CC,596,0,left_only
+Colombia,CO,49336454,1,both
+Comoros,KM,888378,0,left_only
+Cook Islands,CK,7939,0,left_only
+Costa Rica,CR,5256612,1,both
+Croatia,HR,4169239,2,both
+Cuba,CU,10985974,0,left_only
+Curacao,CW,152849,1,both
+Cyprus,CY,1308120,2,both
+Czech Republic,CZ,10706242,0,left_only
+Democratic Republic Of The Congo,CD,111859928,1,both
+Denmark,DK,5946984,1,both
+Djibouti,DJ,976143,0,left_only
+Dominica,DM,74656,0,left_only
+Dominican Republic,DO,10790744,2,both
+Ecuador,EC,17483326,0,left_only
+Egypt,EG,109546720,1,both
+El Salvador,SV,6602370,0,left_only
+Equatorial Guinea,GQ,1737695,0,left_only
+Eritrea,ER,6274796,0,left_only
+Estonia,EE,1202762,1,both
+Eswatini,SZ,1130043,0,left_only
+Ethiopia,ET,116462712,0,left_only
+Falkland Islands,FK,3662,0,left_only
+Faroe Islands,FO,52600,0,left_only
+Federated States Of Micronesia,FM,100319,0,left_only
+Fiji,FJ,947760,1,both
+Finland,FI,5614571,1,both
+France,FR,68521974,6,both
+French Polynesia,PF,301488,0,left_only
+Gabon,GA,2397368,0,left_only
+Georgia,GE,4927228,0,left_only
+Germany,DE,84220184,6,both
+Ghana,GH,33846114,0,left_only
+Gibraltar,GI,29629,0,left_only
+Greece,GR,10497595,1,both
+Greenland,GL,57777,0,left_only
+Grenada,GD,114299,0,left_only
+Guadeloupe,GP,378561,0,left_only
+Guam,GU,169330,0,left_only
+Guatemala,GT,17980803,0,left_only
+Guernsey,GG,67642,0,left_only
+Guinea,GN,13607249,0,left_only
+Guinea-Bissau,GW,2078820,0,left_only
+Guyana,GY,791739,0,left_only
+Haiti,HT,11470261,0,left_only
+Honduras,HN,9571352,0,left_only
+Hong Kong,HK,7288167,1,both
+Hungary,HU,9670009,1,both
+Iceland,IS,360872,1,both
+India,IN,1399179585,9,both
+Indonesia,ID,279476346,2,both
+Iran,IR,87590873,0,left_only
+Iraq,IQ,41266109,0,left_only
+Ireland,IE,5323991,5,both
+Isle Of Man,IM,91840,0,left_only
+Israel,IL,9043387,1,both
+Italy,IT,61021855,13,both
+Ivory Coast,CI,29344847,0,left_only
+Jamaica,JM,2820982,0,left_only
+Japan,JP,123719238,16,both
+Jersey,JE,102785,0,left_only
+Jordan,JO,11086716,0,left_only
+Kazakhstan,KZ,19543464,1,both
+Kenya,KE,57052004,2,both
+Kiribati,KI,115372,0,left_only
+Kosovo,XK,1964327,0,left_only
+Kuwait,KW,3103580,1,both
+Kyrgyzstan,KG,6122781,1,both
+Laos,LA,7852377,0,left_only
+Latvia,LV,1821750,1,both
+Lebanon,LB,5331203,1,both
+Lesotho,LS,2210646,0,left_only
+Liberia,LR,5506280,1,both
+Libya,LY,7252573,0,left_only
+Liechtenstein,LI,39993,0,left_only
+Lithuania,LT,2655755,1,both
+Luxembourg,LU,660924,0,left_only
+Macau,MO,639971,0,left_only
+Madagascar,MG,28812195,0,left_only
+Malawi,MW,21279597,0,left_only
+Malaysia,MY,34219975,4,both
+Maldives,MV,521021,0,left_only
+Mali,ML,21359722,0,left_only
+Malta,MT,467138,1,both
+Marshall Islands,MH,80966,0,left_only
+Mauritania,MR,4244878,0,left_only
+Mauritius,MU,1309448,0,left_only
+Mexico,MX,129875529,6,both
+Moldova,MD,3250532,0,left_only
+Monaco,MC,31597,0,left_only
+Mongolia,MN,3255468,0,left_only
+Montenegro,ME,602445,0,left_only
+Montserrat,MS,5440,0,left_only
+Morocco,MA,37067420,0,left_only
+Mozambique,MZ,32513805,0,left_only
+Myanmar,MM,57970293,0,left_only
+Namibia,,2777232,0,left_only
+Nauru,NR,9852,0,left_only
+Nepal,NP,30899443,1,both
+Netherlands,NL,17463930,3,both
+New Caledonia,NC,300682,0,left_only
+New Zealand,NZ,5109702,5,both
+Nicaragua,NI,6359689,0,left_only
+Niger,NE,25396840,0,left_only
+Nigeria,NG,230842743,1,both
+Niue,NU,2000,0,left_only
+Norfolk Island,NF,1748,0,left_only
+North Korea,KP,26072217,0,left_only
+North Macedonia,MK,2133410,1,both
+Northern Mariana Islands,MP,51295,0,left_only
+Norway,NO,5597924,5,both
+Oman,OM,3833465,1,both
+Pakistan,PK,247653551,1,both
+Palau,PW,21779,0,left_only
+Panama,PA,4404108,0,left_only
+Papua New Guinea,PG,9819350,0,left_only
+Paraguay,PY,7439863,0,left_only
+Peru,PE,32440172,1,both
+Philippines,PH,116434200,1,both
+Pitcairn Islands,PN,50,0,left_only
+Poland,PL,37991766,2,both
+Portugal,PT,10223150,3,both
+Puerto Rico,PR,3057311,0,left_only
+Qatar,QA,2532104,0,left_only
+Republic Of The Congo,CG,5677493,0,left_only
+Romania,RO,18326327,2,both
+Russia,RU,141698923,0,left_only
+Rwanda,RW,13400541,0,left_only
+Saint Barthélemy,BL,7093,0,left_only
+"Saint Helena, Ascension And Tristan Da Cunha",SH,7935,0,left_only
+Saint Kitts And Nevis,KN,54817,0,left_only
+Saint Lucia,LC,167591,0,left_only
+Saint Pierre And Miquelon,PM,5195,0,left_only
+Saint Vincent And The Grenadines,VC,100804,0,left_only
+Saint-Martin,MF,32897,0,left_only
+Samoa,WS,207501,0,left_only
+San Marino,SM,34892,0,left_only
+Saudi Arabia,SA,35939806,0,left_only
+Senegal,SN,18384660,0,left_only
+Serbia,RS,6693375,2,both
+Seychelles,SC,97617,0,left_only
+Sierra Leone,SL,8908040,0,left_only
+Singapore,SG,5975383,1,both
+Sint Maarten,SX,45677,0,left_only
+Slovakia,SK,5425319,2,both
+Slovenia,SI,2099790,1,both
+Solomon Islands,SB,714766,0,left_only
+Somalia,SO,12693796,0,left_only
+South Africa,ZA,58048332,5,both
+South Korea,KR,51966948,0,left_only
+South Sudan,SS,12118379,0,left_only
+Spain,ES,47222613,6,both
+Sri Lanka,LK,23326272,1,both
+Sudan,SD,49197555,0,left_only
+Suriname,SR,639759,0,left_only
+Svalbard And Jan Mayen,SJ,2926,0,left_only
+Sweden,SE,10536338,1,both
+Switzerland,CH,8563760,4,both
+Syria,SY,22933531,0,left_only
+São Tomé And Príncipe,ST,220372,0,left_only
+Tajikistan,TJ,9245937,0,left_only
+Tanzania,TZ,65642682,1,both
+Thailand,TH,69794997,6,both
+The Bahamas,BS,358508,0,left_only
+The Gambia,GM,2468569,0,left_only
+Timor-Leste,TL,1476042,0,left_only
+Togo,TG,8703961,0,left_only
+Tokelau,TK,1647,0,left_only
+Tonga,TO,105221,0,left_only
+Trinidad And Tobago,TT,1407460,0,left_only
+Tunisia,TN,11976182,0,left_only
+Turkey,TR,83593483,2,both
+Turkmenistan,TM,5690818,0,left_only
+Turks And Caicos Islands,TC,59367,0,left_only
+Tuvalu,TV,11639,0,left_only
+Uganda,UG,47729952,0,left_only
+Ukraine,UA,43306477,4,both
+United Arab Emirates,AE,9973449,1,both
+United Kingdom,GB,68138484,9,both
+United States,US,339665118,184,both
+United States Minor Outlying Islands,UM,300,0,left_only
+United States Virgin Islands,VI,104917,0,left_only
+Uruguay,UY,3416264,0,left_only
+Uzbekistan,UZ,31360836,2,both
+Vanuatu,VU,313046,0,left_only
+Vatican City,VA,1000,0,left_only
+Venezuela,VE,30518260,1,both
+Vietnam,VN,104799174,16,both
+Wallis And Futuna,WF,15929,0,left_only
+West Bank,XW,2949246,0,left_only
+Western Sahara,EH,565581,0,left_only
+Yemen,YE,31565602,0,left_only
+Zambia,ZM,20216029,0,left_only
+Zimbabwe,ZW,15418674,1,both
