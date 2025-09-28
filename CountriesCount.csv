@@ -1,88 +1,4 @@
 Country,ID,Population,Count
-United States of America,US,339665118,184
-Canada,CA,38516736,25
-Japan,JP,123719238,16
-Vietnam,VN,104799174,16
-Italy,IT,61021855,13
-Australia,AU,26461166,11
-India,IN,1399179585,9
-United Kingdom,GB,68138484,9
-China,CN,1413142846,6
-France,FR,68521974,6
-Germany,DE,84220184,6
-Mexico,MX,129875529,6
-Spain,ES,47222613,6
-Thailand,TH,69794997,6
-Ireland,IE,5323991,5
-New Zealand,NZ,5109702,5
-Norway,NO,5597924,5
-South Africa,ZA,58048332,5
-Taiwan,TW,23588613,5
-Brazil,BR,218689757,4
-Malaysia,MY,34219975,4
-Switzerland,CH,8563760,4
-Ukraine,UA,43306477,4
-Netherlands,NL,17463930,3
-Portugal,PT,10223150,3
-Argentina,AR,46621847,2
-Croatia,HR,4169239,2
-Cyprus,CY,1308120,2
-Dominican Republic,DO,10790744,2
-Indonesia,ID,279476346,2
-Kenya,KE,57052004,2
-Poland,PL,37991766,2
-Romania,RO,18326327,2
-Serbia,RS,6693375,2
-Slovakia,SK,5425319,2
-Turkey,TR,83593483,2
-Uzbekistan,UZ,31360836,2
-Armenia,AM,2989091,1
-Aruba,AW,123702,1
-Austria,AT,8940860,1
-Barbados,BB,303431,1
-Belgium,BE,11913633,1
-Botswana,BW,2417596,1
-Bulgaria,BG,6827736,1
-Cambodia,KH,16891245,1
-Cayman Islands,KY,65483,1
-Chile,CL,18549457,1
-Colombia,CO,49336454,1
-Costa Rica,CR,5256612,1
-Curacao,CW,152849,1
-Dem. Rep. Congo,CD,111859928,1
-Denmark,DK,5946984,1
-Egypt,EG,109546720,1
-Estonia,EE,1202762,1
-Fiji,FJ,947760,1
-Finland,FI,5614571,1
-Greece,GR,10497595,1
-Hong Kong,HK,7288167,1
-Hungary,HU,9670009,1
-Iceland,IS,360872,1
-Israel,IL,9043387,1
-Kazakhstan,KZ,19543464,1
-Kuwait,KW,3103580,1
-Kyrgyzstan,KG,6122781,1
-Latvia,LV,1821750,1
-Lebanon,LB,5331203,1
-Liberia,LR,5506280,1
-Lithuania,LT,2655755,1
-Malta,MT,467138,1
-Nepal,NP,30899443,1
-Nigeria,NG,230842743,1
-North Macedonia,MK,2133410,1
-Oman,OM,3833465,1
-Pakistan,PK,247653551,1
-Peru,PE,32440172,1
-Philippines,PH,116434200,1
-Singapore,SG,5975383,1
-Slovenia,SI,2099790,1
-Sri Lanka,LK,23326272,1
-Sweden,SE,10536338,1
-Tanzania,TZ,65642682,1
-United Arab Emirates,AE,9973449,1
-Venezuela,VE,30518260,1
-Zimbabwe,ZW,15418674,1
 Afghanistan,AF,39232003,0
 Albania,AL,3101621,0
 Algeria,DZ,44758398,0
@@ -90,51 +6,82 @@ American Samoa,AS,44620,0
 Andorra,AD,85468,0
 Angola,AO,35981281,0
 Anguilla,AI,19079,0
+Antarctica,AQ,1000,0
 Antigua And Barbuda,AG,101489,0
+Argentina,AR,46621847,2
+Armenia,AM,2989091,1
+Aruba,AW,123702,1
+Australia,AU,26461166,11
+Austria,AT,8940860,1
 Azerbaijan,AZ,10420515,0
 Bahamas,BS,358508,0
 Bahrain,BH,1553886,0
 Bangladesh,BD,167184465,0
+Barbados,BB,303431,1
 Belarus,BY,9383853,0
+Belgium,BE,11913633,1
 Belize,BZ,419137,0
 Benin,BJ,14219908,0
 Bermuda,BM,72576,0
 Bhutan,BT,876181,0
 Bolivia,BO,12186079,0
 Bosnia And Herzegovina,BA,3807764,0
+Botswana,BW,2417596,1
+Brazil,BR,218689757,4
 British Virgin Islands,VG,39369,0
 Brunei,BN,484991,0
+Bulgaria,BG,6827736,1
 Burkina Faso,BF,22489126,0
 Burundi,BI,13162952,0
+Cambodia,KH,16891245,1
 Cameroon,CM,30135732,0
+Canada,CA,38516736,25
 Cape Verde,CV,603901,0
 Caribbean Netherlands,BQ,30397,0
+Cayman Islands,KY,65483,1
 Central African Rep.,CF,5552228,0
 Chad,TD,18523165,0
+Chile,CL,18549457,1
+China,CN,1413142846,6
 Christmas Island,CX,2205,0
 Cocos (Keeling) Islands,CC,596,0
+Colombia,CO,49336454,1
 Comoros,KM,888378,0
 Congo,CG,5677493,0
 Cook Islands,CK,7939,0
-Cuba,CU,10985974,0
-Czechia,CZ,10706242,0
+Costa Rica,CR,5256612,1
 C�te d'Ivoire,CI,29344847,0
+Croatia,HR,4169239,2
+Cuba,CU,10985974,0
+Curacao,CW,152849,1
+Cyprus,CY,1308120,2
+Czechia,CZ,10706242,0
+Dem. Rep. Congo,CD,111859928,1
+Denmark,DK,5946984,1
 Djibouti,DJ,976143,0
 Dominica,DM,74656,0
+Dominican Republic,DO,10790744,2
 Ecuador,EC,17483326,0
+Egypt,EG,109546720,1
 El Salvador,SV,6602370,0
 Equatorial Guinea,GQ,1737695,0
 Eritrea,ER,6274796,0
+Estonia,EE,1202762,1
 Eswatini,SZ,1130043,0
 Ethiopia,ET,116462712,0
 Falkland Islands,FK,3662,0
 Faroe Islands,FO,52600,0
 Federated States Of Micronesia,FM,100319,0
+Fiji,FJ,947760,1
+Finland,FI,5614571,1
+France,FR,68521974,6
 French Polynesia,PF,301488,0
 Gabon,GA,2397368,0
 Georgia,GE,4927228,0
+Germany,DE,84220184,6
 Ghana,GH,33846114,0
 Gibraltar,GI,29629,0
+Greece,GR,10497595,1
 Greenland,GL,57777,0
 Grenada,GD,114299,0
 Guadeloupe,GP,378561,0
@@ -146,27 +93,47 @@ Guinea-Bissau,GW,2078820,0
 Guyana,GY,791739,0
 Haiti,HT,11470261,0
 Honduras,HN,9571352,0
+Hong Kong,HK,7288167,1
+Hungary,HU,9670009,1
+Iceland,IS,360872,1
+India,IN,1399179585,9
+Indonesia,ID,279476346,2
 Iran,IR,87590873,0
 Iraq,IQ,41266109,0
+Ireland,IE,5323991,5
 Isle Of Man,IM,91840,0
+Israel,IL,9043387,1
+Italy,IT,61021855,13
 Jamaica,JM,2820982,0
+Japan,JP,123719238,16
 Jersey,JE,102785,0
 Jordan,JO,11086716,0
+Kazakhstan,KZ,19543464,1
+Kenya,KE,57052004,2
 Kiribati,KI,115372,0
 Kosovo,XK,1964327,0
+Kuwait,KW,3103580,1
+Kyrgyzstan,KG,6122781,1
 Laos,LA,7852377,0
+Latvia,LV,1821750,1
+Lebanon,LB,5331203,1
 Lesotho,LS,2210646,0
+Liberia,LR,5506280,1
 Libya,LY,7252573,0
 Liechtenstein,LI,39993,0
+Lithuania,LT,2655755,1
 Luxembourg,LU,660924,0
 Macao,MO,639971,0
 Madagascar,MG,28812195,0
 Malawi,MW,21279597,0
+Malaysia,MY,34219975,4
 Maldives,MV,521021,0
 Mali,ML,21359722,0
+Malta,MT,467138,1
 Marshall Islands,MH,80966,0
 Mauritania,MR,4244878,0
 Mauritius,MU,1309448,0
+Mexico,MX,129875529,6
 Moldova,MD,3250532,0
 Monaco,MC,31597,0
 Mongolia,MN,3255468,0
@@ -177,22 +144,37 @@ Mozambique,MZ,32513805,0
 Myanmar,MM,57970293,0
 Namibia,,2777232,0
 Nauru,NR,9852,0
+Nepal,NP,30899443,1
+Netherlands,NL,17463930,3
 New Caledonia,NC,300682,0
+New Zealand,NZ,5109702,5
 Nicaragua,NI,6359689,0
 Niger,NE,25396840,0
+Nigeria,NG,230842743,1
 Niue,NU,2000,0
 Norfolk Island,NF,1748,0
 North Korea,KP,26072217,0
+North Macedonia,MK,2133410,1
 Northern Mariana Islands,MP,51295,0
+Norway,NO,5597924,5
+Oman,OM,3833465,1
+Pakistan,PK,247653551,1
 Palau,PW,21779,0
 Panama,PA,4404108,0
 Papua New Guinea,PG,9819350,0
 Paraguay,PY,7439863,0
+Peru,PE,32440172,1
+Philippines,PH,116434200,1
 Pitcairn Islands,PN,50,0
+Poland,PL,37991766,2
+Portugal,PT,10223150,3
 Puerto Rico,PR,3057311,0
 Qatar,QA,2532104,0
+Romania,RO,18326327,2
 Russia,RU,141698923,0
 Rwanda,RW,13400541,0
+S. Sudan,SS,12118379,0
+Sã£O Tomã© And Prã­Ncipe,ST,220372,0
 Saint Barthã©Lemy,BL,7093,0
 "Saint Helena, Ascension And Tristan Da Cunha",SH,7935,0
 Saint Kitts And Nevis,KN,54817,0
@@ -204,19 +186,29 @@ Samoa,WS,207501,0
 San Marino,SM,34892,0
 Saudi Arabia,SA,35939806,0
 Senegal,SN,18384660,0
+Serbia,RS,6693375,2
 Seychelles,SC,97617,0
 Sierra Leone,SL,8908040,0
+Singapore,SG,5975383,1
 Sint Maarten,SX,45677,0
+Slovakia,SK,5425319,2
+Slovenia,SI,2099790,1
 Solomon Islands,SB,714766,0
 Somalia,SO,12693796,0
+South Africa,ZA,58048332,5
 South Korea,KR,51966948,0
-S. Sudan,SS,12118379,0
+Spain,ES,47222613,6
+Sri Lanka,LK,23326272,1
 Sudan,SD,49197555,0
 Suriname,SR,639759,0
 Svalbard And Jan Mayen,SJ,2926,0
+Sweden,SE,10536338,1
+Switzerland,CH,8563760,4
 Syria,SY,22933531,0
-Sã£O Tomã© And Prã­Ncipe,ST,220372,0
+Taiwan,TW,23588613,5
 Tajikistan,TJ,9245937,0
+Tanzania,TZ,65642682,1
+Thailand,TH,69794997,6
 The Gambia,GM,2468569,0
 Timor-Leste,TL,1476042,0
 Togo,TG,8703961,0
@@ -224,18 +216,26 @@ Tokelau,TK,1647,0
 Tonga,TO,105221,0
 Trinidad And Tobago,TT,1407460,0
 Tunisia,TN,11976182,0
+Turkey,TR,83593483,2
 Turkmenistan,TM,5690818,0
 Turks And Caicos Islands,TC,59367,0
 Tuvalu,TV,11639,0
 Uganda,UG,47729952,0
+Ukraine,UA,43306477,4
+United Arab Emirates,AE,9973449,1
+United Kingdom,GB,68138484,9
 United States Minor Outlying Islands,UM,300,0
+United States of America,US,339665118,184
 United States Virgin Islands,VI,104917,0
 Uruguay,UY,3416264,0
+Uzbekistan,UZ,31360836,2
 Vanuatu,VU,313046,0
 Vatican City,VA,1000,0
+Venezuela,VE,30518260,1
+Vietnam,VN,104799174,16
 Wallis And Futuna,WF,15929,0
 West Bank,XW,2949246,0
 Western Sahara,EH,565581,0
 Yemen,YE,31565602,0
 Zambia,ZM,20216029,0
-Antarctica,AQ,1000,0
+Zimbabwe,ZW,15418674,1
