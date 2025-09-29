@@ -38,10 +38,10 @@ Canada,CA,38516736,25
 Cape Verde,CV,603901,0
 Caribbean Netherlands,BQ,30397,0
 Cayman Islands,KY,65483,1
-Central African Rep.,CF,5552228,0
+Central African Republic,CF,5552228,0
 Chad,TD,18523165,0
 Chile,CL,18549457,1
-China,CN,1413142846,6
+People's Republic of China,CN,1413142846,6
 Christmas Island,CX,2205,0
 Cocos (Keeling) Islands,CC,596,0
 Colombia,CO,49336454,1
@@ -54,8 +54,8 @@ Cuba,CU,10985974,0
 Curacao,CW,152849,1
 Cyprus,CY,1308120,2
 Czechia,CZ,10706242,0
-C�te d'Ivoire,CI,29344847,0
-Dem. Rep. Congo,CD,111859928,1
+Ivory Coast,CI,29344847,0
+Democratic Republic of the Congo,CD,111859928,1
 Denmark,DK,5946984,1
 Djibouti,DJ,976143,0
 Dominica,DM,74656,0
@@ -172,7 +172,7 @@ Qatar,QA,2532104,0
 Romania,RO,18326327,2
 Russia,RU,141698923,0
 Rwanda,RW,13400541,0
-S. Sudan,SS,12118379,0
+South Sudan,SS,12118379,0
 Saint Barthã©Lemy,BL,7093,0
 "Saint Helena, Ascension And Tristan Da Cunha",SH,7935,0
 Saint Kitts And Nevis,KN,54817,0
@@ -234,7 +234,7 @@ Venezuela,VE,30518260,1
 Vietnam,VN,104799174,16
 Wallis And Futuna,WF,15929,0
 West Bank,XW,2949246,0
-W. Sahara,EH,565581,0
+Western Sahara,EH,565581,0
 Yemen,YE,31565602,0
 Zambia,ZM,20216029,0
 Zimbabwe,ZW,15418674,1
