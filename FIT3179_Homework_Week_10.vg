@@ -98,7 +98,7 @@
             "tooltip": [
                 {"field": "Year", "type": "ordinal"},
                 {"field": "gender", "type": "nominal", "title": "Category"},
-                {"field": "finishers_gender", "type": "quantitative", "title": "Amount"},
+                {"field": "finishers_gender", "type": "quantitative", "title": "Amount", "format": ","},
                 {"field": "Fastest_Time", "type": "nominal", "title": "Fastest Finish Time"}
             ]
         }
