@@ -1,0 +1,71 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json", 
+  "width": 800, 
+  "height": 400, 
+  "title": {
+    "text": "Where are Marathon Events Held?", 
+    "fontSize": 20
+  },
+  "projection": {"type": "equalEarth"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/hamishroberts-159/FIT3179-Visualisation2/refs/heads/main/ne_110m.json",
+    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+    },
+  "layer": [
+    {
+        "data": {"sphere": true},
+        "mark": {"type": "geoshape", "fill": "#f7f7ed", "stroke": null}
+    },
+    {
+        "transform": [
+            {
+            "lookup": "properties.NAME_EN",
+            "from": {
+                "data": {
+                "url": "https://raw.githubusercontent.com/hamishroberts-159/FIT3179-Visualisation2/refs/heads/main/CountriesCount.csv"
+                },
+                "key": "Country",
+                "fields": ["Count"]
+            }
+            }
+        ],
+        "mark": {"type": "geoshape", "stroke": "lightgrey"},
+        "encoding": {
+            "color": {
+            "field": "Count",
+            "type": "quantitative",
+            "scale": {
+                "type": "threshold",
+                "domain": [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 7.5, 10, 12, 14.5, 20.5, 25.5, 150],
+                "range": ["#e6f0ff", "#d9ebff", "#cce4ff", "#b8dbff", "#a3d1ff", "#85c5ff", "#5fb5ff", "#339eff", "#1a82e0", "#1466b3", "#0f518a", "#0a3c66",  "#072f50", "#062544"]
+            },
+            "legend": {
+                "title": "Number of Marathons",
+                "titleAlign": "left"
+            }
+            },
+            "tooltip": [
+            {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+            {"field": "Count", "type": "quantitative"}
+            ]
+        }
+    },
+    {
+        "data": {
+            "url": "https://raw.githubusercontent.com/hamishroberts-159/FIT3179-Visualisation2/refs/heads/main/MarathonCoordinates.csv"
+        },
+        "mark": {"type": "circle", "color": "purple", "size": 15, "tooltip": {"content": "data"}},
+        "encoding": {
+        "longitude": {"field": "Longitude", "type": "quantitative"},
+        "latitude": {"field": "Latitude", "type": "quantitative"}
+        }
+    },
+    {
+        "data": {
+            "url": "https://raw.githubusercontent.com/hamishroberts-159/FIT3179-Visualisation2/refs/heads/main/ne_110m.json",
+            "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
+        },
+        "mark": {"type": "geoshape", "stroke": "lightgray", "fill": null}
+    }    
+  ]
+}
