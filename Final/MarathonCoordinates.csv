@@ -1,0 +1,438 @@
+City,Country,Latitude,Longitude
+Zurich,Switzerland,47.3744,8.5411
+Karachi,Pakistan,24.86,67.01
+Chennai,India,13.0825,80.275
+Xiamen,China,24.4796,118.0889
+Luxor City,Egypt,25.6967,32.6444
+Buckeye,United States of America,33.4314,-112.6429
+Kinmen,Taiwan,24.44,118.33
+Baton Rouge,United States of America,30.442,-91.1311
+Houston,United States of America,29.786,-95.3885
+Mumbai,India,19.0761,72.8775
+Funchal,Portugal,32.65,-16.9167
+Carlsbad,United States of America,33.1246,-117.2834
+Carlsbad,United States of America,32.401,-104.2388
+Buriram,Thailand,14.9943,103.1039
+Osaka,Japan,34.6939,135.5022
+Vadodara,India,22.3,73.2
+Jaipur,India,26.9,75.8
+Jaipur,India,23.4313,86.1493
+Miami,United States of America,25.784,-80.2101
+Miami,United States of America,36.8878,-94.8711
+Jacksonville Beach,United States of America,30.2782,-81.4045
+Huntington Beach,United States of America,33.696,-118.0018
+Beppu City,Japan,33.2847,131.4914
+Lagos,Nigeria,6.455,3.3841
+Mesa,United States of America,33.4015,-111.7178
+Hong Kong,Hong Kong,22.3,114.2
+Melbourne,United States of America,28.1086,-80.6627
+Terni,Italy,42.5667,12.65
+Cape Town,South Africa,-33.9253,18.4239
+Split,Croatia,43.51,16.44
+Austin,United States of America,30.3005,-97.7522
+Austin,United States of America,43.6721,-92.9784
+Caracas,Venezuela,10.4806,-66.9036
+Castellon,Spain,39.9786,-0.0554
+Muscat,Oman,23.6139,58.5922
+Jackson,United States of America,32.3157,-90.2125
+Jackson,United States of America,42.2431,-84.4038
+Jackson,United States of America,35.6538,-88.8354
+Jackson,United States of America,40.098,-74.3578
+Jackson,United States of America,37.3792,-89.6522
+Jackson,United States of America,43.472,-110.7746
+Jackson,United States of America,40.3774,-76.3142
+Jackson,United States of America,39.9057,-76.8796
+Ho Chi Minh,Viet Nam,10.7756,106.7019
+Salsomaggiore Terme,Italy,44.8156,9.9783
+Pietermaritzburg,South Africa,-29.6167,30.3833
+Seville,Spain,37.39,-5.99
+El Paso,United States of America,31.8476,-106.43
+Fort Worth,United States of America,32.7817,-97.3474
+Moshi,Tanzania,-3.3349,37.3404
+Osaka,Japan,34.6939,135.5022
+Tel Aviv,Israel,32.08,34.78
+The Woodlands,United States of America,30.1738,-95.5134
+Tokyo,Japan,35.687,139.7495
+Torreon,Mexico,25.5428,-103.4068
+Chattanooga,United States of America,35.066,-85.2481
+Atlanta,United States of America,33.7628,-84.422
+Vereeniging,South Africa,-26.6736,27.9319
+Little Rock,United States of America,34.7256,-92.3577
+Napa,United States of America,38.2975,-122.301
+Brescia,Italy,45.5389,10.2203
+Taipei City,Taiwan,25.0478,121.5319
+Shizuoka City,Japan,34.9756,138.3828
+Nagoya,Japan,35.1833,136.9
+Virginia Beach,United States of America,36.7335,-76.0435
+Rome,Italy,41.8931,12.4828
+Barcelona,Spain,41.3833,2.1833
+Llanelli,United Kingdom,51.684,-4.163
+Birgu,Malta,35.8861,14.5242
+Da Nang,Viet Nam,16.0471,108.2062
+Limassol,Cyprus,34.6747,33.0442
+Oakland,United States of America,37.7904,-122.2166
+Oakland,United States of America,41.0313,-74.2408
+Oakland,United States of America,35.2256,-89.5372
+Golfe De Saint-Tropez,France,43.2693,6.6398
+Charlottesville,United States of America,38.0375,-78.4855
+Hobart,Australia,-42.8806,147.325
+Sao Paulo,Brazil,-23.5504,-46.6339
+Vienna,Austria,48.2083,16.3725
+Milano,Italy,45.4669,9.19
+Belgrade,Serbia,44.8178,20.4569
+Rhodes,Greece,36.4349,28.2176
+Hannover,Germany,52.3667,9.7167
+Cluj-Napoca,Romania,46.7667,23.5833
+Brighton,United Kingdom,50.8208,-0.1375
+Bratislava,Slovakia,48.1447,17.1128
+Hue,Viet Nam,16.4637,107.5859
+Wilmington,United States of America,34.2099,-77.8866
+Wilmington,United States of America,39.7415,-75.5416
+Wilmington,United States of America,42.5609,-71.1654
+Wilmington,United States of America,39.4362,-83.8141
+Milwaukee,United States of America,43.0642,-87.9675
+Enschede,Netherlands,52.2225,6.8925
+Christchurch,New Zealand,-43.5311,172.6361
+Canberra,Australia,-35.2931,149.1269
+Cartago,Costa Rica,9.8667,-83.9167
+Zurich,Switzerland,47.3744,8.5411
+Tashkent,Uzbekistan,41.3111,69.2797
+Ventura,United States of America,34.2783,-119.229
+Miri,Malaysia,4.3999,113.9845
+Kasumigaura,Japan,36.1517,140.2371
+Nagano City,Japan,36.6486,138.1947
+Boston,United States of America,42.3188,-71.0852
+Bergen,Norway,60.3925,5.3233
+Champaign,United States of America,40.1142,-88.2737
+St. Louis,United States of America,38.6359,-90.2451
+Holmestrand,Norway,59.5317,10.2903
+Louisville,United States of America,38.1663,-85.6485
+Louisville,United States of America,39.971,-105.1441
+Louisville,United States of America,40.837,-81.2643
+Nantes,France,47.2181,-1.5528
+Eldoret,Kenya,0.5167,35.2833
+London,United Kingdom,51.5072,-0.1275
+Eau Claire,United States of America,44.8197,-91.4948
+Eugene,United States of America,44.0564,-123.1174
+Toledo,United States of America,41.6638,-83.5827
+Padova,Italy,45.4064,11.8778
+Ballarat,Australia,-37.5608,143.8475
+Nashville,United States of America,36.1715,-86.7842
+Oklahoma City,United States of America,35.4676,-97.5136
+Regina,Canada,50.4547,-104.6067
+Big Sur,United States of America,36.27,-121.808
+Beirut,Lebanon,33.8981,35.5058
+Cholpon-Ata,Kyrgyzstan,42.6494,77.0822
+Rotorua,New Zealand,-38.1378,176.2514
+Shiprock,United States of America,36.6769,-108.673
+Mendoza,Argentina,-32.8897,-68.8444
+Pointe-Des-Cascades,Canada,45.37,-74.3244
+Limerick,Ireland,52.6653,-8.6238
+Durban,South Africa,-29.8833,31.05
+Vancouver,Canada,49.25,-123.1
+Cincinnati,United States of America,39.1413,-84.506
+Belfast,United Kingdom,54.5967,-5.93
+Lincoln,United States of America,40.8099,-96.6784
+Lincoln,United States of America,38.8774,-121.2937
+Lincoln,United States of America,41.9171,-71.4505
+Lincoln,United States of America,40.1508,-89.372
+Toronto,Canada,43.7417,-79.3733
+Newport Beach,United States of America,33.6151,-117.8668
+Milton Keynes,United Kingdom,52.04,-0.76
+Nashua,United States of America,42.7491,-71.491
+Fredericton,Canada,45.9636,-66.6431
+Kota Kinabalu,Malaysia,5.98,116.11
+Leiden,Netherlands,52.16,4.49
+Geneva,Switzerland,46.2017,6.1469
+Helsinki,Finland,60.1708,24.9375
+Boise,United States of America,43.6005,-116.2308
+Ogden,United States of America,41.2279,-111.9682
+Ogden,United States of America,43.1646,-77.822
+Grand Haven,United States of America,43.0553,-86.2201
+Santiago,Chile,-33.4372,-70.6506
+Halifax,Canada,44.6475,-63.5906
+Riga,Latvia,56.9475,24.1069
+Cleveland,United States of America,41.4764,-81.6805
+Cleveland,United States of America,35.1817,-84.8707
+Cleveland,United States of America,33.744,-90.7285
+Denver,United States of America,39.762,-104.8758
+Green Bay,United States of America,44.5148,-87.9895
+Traverse City,United States of America,44.7546,-85.6038
+Calgary,Canada,51.05,-114.0667
+Saskatoon,Canada,52.1333,-106.6833
+Ottawa,Canada,45.4247,-75.695
+Lima,Peru,-12.06,-77.0375
+Buffalo,United States of America,42.9018,-78.8487
+Buffalo,United States of America,45.1794,-93.8644
+Burlington,United States of America,36.076,-79.4685
+Burlington,United States of America,44.4876,-73.2316
+Burlington,United States of America,42.5022,-71.2027
+Burlington,United States of America,40.0641,-74.8394
+Burlington,United States of America,40.8071,-91.1247
+Burlington,United States of America,39.0223,-84.7217
+Burlington,United States of America,42.6744,-88.2721
+Burlington,United States of America,48.4676,-122.3298
+Coeur D'Alene,United States of America,47.704,-116.7936
+Ha Long,Viet Nam,20.9449,107.0837
+Fargo,United States of America,46.8651,-96.8292
+Stockholm,Sweden,59.3275,18.0547
+Laval,Canada,45.5833,-73.75
+Cork,Ireland,51.9,-8.4731
+Brisbane,Australia,-27.4678,153.0281
+San Diego,United States of America,32.8313,-117.1222
+Kinshasa,Dem. Rep. Congo,-4.4419,15.2663
+Provo,United States of America,40.2457,-111.6457
+Noord,Aruba,12.5194,-69.9681
+Porto Alegre,Brazil,-30.0328,-51.23
+Rottnest Island,Australia,-32,115.5
+Winnipeg,Canada,49.8844,-97.1464
+Phuket,Thailand,7.8881,98.3975
+Caen,France,49.1814,-0.3636
+Quy Nhon,Viet Nam,13.782,109.19
+Duluth,United States of America,46.7756,-92.1393
+Duluth,United States of America,34.0053,-84.1492
+Tromso,Norway,69.6496,18.956
+Rio De Janeiro,Brazil,-22.9111,-43.2056
+Waterford,Ireland,52.2583,-7.119
+Wellington,New Zealand,-41.2889,174.7772
+San Luis Potosi,Mexico,22.156,-100.985
+Missoula,United States of America,46.8751,-114.0214
+Gold Coast,Australia,-28.0167,153.4
+Vi Thanh City,Viet Nam,10.33,105.46
+Victoria Falls,Zimbabwe,-17.9333,25.8333
+Cairns,Australia,-16.92,145.78
+Putrajaya,Malaysia,2.914,101.7019
+Pattaya,Thailand,12.9279,100.877
+Barrington Passage,Canada,44.3667,-65.9333
+North Bend,United States of America,43.4075,-124.2364
+San Francisco,United States of America,37.7558,-122.4449
+North Bend,United States of America,43.4075,-124.2364
+Townsville,Australia,-19.25,146.8167
+Sunshine Coast,Australia,-26.65,153.0667
+Anchorage,United States of America,61.1508,-149.1091
+Edmonton,Canada,53.5344,-113.4903
+Reykjavik,Iceland,64.1458,-21.9425
+Longford,Ireland,53.727,-7.7998
+Santa Rosa,United States of America,38.4458,-122.7067
+Bali,Indonesia,-8.4095,115.1889
+Nha Trang,Viet Nam,12.245,109.1917
+Stavanger,Norway,58.97,5.7314
+Sapporo,Japan,43.0619,141.3544
+Sydney,Australia,-33.8667,151.2
+Mexico City,Mexico,19.4333,-99.1333
+Suva,Fiji,-18.1333,178.4333
+St. John'S,Canada,47.4817,-52.7971
+Regina,Canada,50.4547,-104.6067
+Medellin,Colombia,6.2442,-75.5812
+Tallinn,Estonia,59.4372,24.7453
+Leh,India,34.1642,77.5847
+Montreal,Canada,45.5089,-73.5617
+Vilnius,Lithuania,54.6872,25.28
+Oslo,Norway,59.9133,10.7389
+Logan,United States of America,41.7399,-111.8422
+Logan,United States of America,40.5263,-78.4234
+Dayton,United States of America,39.7805,-84.2003
+Dayton,United States of America,39.2592,-119.5653
+Dayton,United States of America,30.0315,-94.9158
+Kanye,Botswana,-24.9833,25.35
+Bismarck,United States of America,46.8143,-100.7694
+Muenster,Germany,51.9607,7.6261
+Montreal,Canada,45.5089,-73.5617
+Berlin,Germany,52.52,13.405
+Buenos Aires,Argentina,-34.6036,-58.3814
+Dnipro City,Ukraine,48.4647,35.0462
+Akron,United States of America,41.0798,-81.5219
+Warsaw,Poland,52.23,21.0111
+Inverness,United Kingdom,57.4778,-4.2247
+Quad Cities,United States of America,41.5236,-90.5776
+Almaty,Kazakhstan,43.24,76.915
+Omaha,United States of America,41.2627,-96.0529
+Odense,Denmark,55.4004,10.3833
+St. George,United States of America,37.0758,-113.5752
+Shepherdstown,United States of America,39.4333,-77.8094
+Saint-Jérôme,Canada,45.7833,-74
+Pasay City,Philippines,14.5439,120.995
+Querétaro,Mexico,20.5875,-100.3928
+Kosice,Slovakia,48.7164,21.2611
+Dehradun,India,30.3165,78.0322
+Corning,United States of America,42.147,-77.0561
+Portland,United States of America,45.5371,-122.65
+Portland,United States of America,43.6773,-70.2715
+Portland,United States of America,27.8942,-97.3278
+Portland,United States of America,36.5921,-86.5239
+Crazy Horse,United States of America,43.8833,-103.4583
+Colombo,Sri Lanka,6.9167,79.8333
+Long Beach,United States of America,33.7977,-118.167
+Long Beach,United States of America,40.5887,-73.666
+Long Beach,United States of America,30.3608,-89.1651
+Bursa,Turkey,40.1833,29.05
+Hanoi,Viet Nam,21,105.85
+Chester,United Kingdom,53.1914,-2.8903
+Yerevan,Armenia,40.1814,44.5144
+Kuala Lumpur,Malaysia,3.1686,101.698
+Skopje,North Macedonia,41.9961,21.4317
+Milwaukee,United States of America,43.0642,-87.9675
+Hartford,United States of America,41.7661,-72.6834
+Hartford,United States of America,43.3223,-88.3784
+Hartford,United States of America,43.6644,-72.3865
+Cao Lanh City,Viet Nam,10.467,105.633
+Sofia,Bulgaria,42.6979,23.3217
+Chicago,United States of America,41.8375,-87.6866
+Victoria,Canada,48.4283,-123.3647
+Budapest,Hungary,47.4983,19.0408
+Lindau,Germany,47.5458,9.6833
+Bucharest,Romania,44.4325,26.1039
+Novi Sad,Serbia,45.2542,19.8425
+Kyiv,Ukraine,50.45,30.5233
+Perth,Australia,-31.9558,115.8597
+Newport,United States of America,41.4801,-71.3203
+Newport,United States of America,39.0856,-84.4868
+Newport,United States of America,44.6242,-124.0513
+Munich,Germany,48.1375,11.575
+Wolfville,Canada,45.085,-64.3667
+Falmouth,United States of America,41.5913,-70.5912
+Falmouth,United States of America,43.7476,-70.2827
+Zagreb,Croatia,45.8131,15.9772
+Monrovia,Liberia,6.3133,-10.8014
+Bila Tserkva,Ukraine,49.7989,30.1153
+Ann Arbor,United States of America,42.2759,-83.731
+Baltimore,United States of America,39.3051,-76.6144
+Kansas City,United States of America,39.1238,-94.5541
+Kansas City,United States of America,39.1235,-94.7443
+Ljubljana,Slovenia,46.0514,14.5061
+Amsterdam,Netherlands,52.3728,4.8936
+Santo Domingo,Dominican Republic,18.4764,-69.8933
+Cape Town,South Africa,-33.9253,18.4239
+Toronto,Canada,43.7417,-79.3733
+Parma,Italy,44.8015,10.328
+Lowell,United States of America,42.6389,-71.3217
+Lowell,United States of America,41.2917,-87.4195
+Lowell,United States of America,36.2561,-94.1532
+Mount Desert Island,United States of America,44.3386,-68.2733
+Abingdon,United Kingdom,51.6717,-1.2783
+York,United Kingdom,53.96,-1.08
+Des Moines,United States of America,41.5725,-93.6105
+Des Moines,United States of America,47.3914,-122.3156
+Detroit,United States of America,42.3834,-83.1024
+Columbus,United States of America,39.9862,-82.9855
+Columbus,United States of America,32.51,-84.8771
+Columbus,United States of America,39.2093,-85.9183
+Columbus,United States of America,41.4366,-97.3565
+Columbus,United States of America,33.5088,-88.4096
+Grand Rapids,United States of America,42.9619,-85.6562
+Grand Rapids,United States of America,47.238,-93.5327
+Atlantic City,United States of America,39.3797,-74.4527
+Charlottetown,Canada,46.2403,-63.1347
+Debno,Poland,52.467,14.5
+Lisbon,Portugal,38.7122,-9.134
+Chengdu,China,30.66,104.0633
+Niagara Falls,Canada,43.06,-79.1067
+Taipei City,Taiwan,25.0478,121.5319
+Lucerne,Switzerland,47.0523,8.3059
+Narragansett,United States of America,41.4291,-71.4668
+Kanazawa,Japan,36.5611,136.6564
+Dublin,Ireland,53.3497,-6.2603
+Frankfurt,Germany,50.1106,8.6822
+Venice,Italy,45.4397,12.3319
+Aguascalientes,Mexico,21.876,-102.296
+Nantou,Taiwan,23.84,120.967
+Chengdu,China,30.66,104.0633
+Nairobi,Kenya,-1.2864,36.8172
+Hanoi,Viet Nam,21,105.85
+Kyiv,Ukraine,50.45,30.5233
+Canal Fulton,United States of America,40.892,-81.533
+New York,United States of America,40.6943,-73.9249
+Istanbul,Turkey,41.0136,28.955
+Auckland,New Zealand,-36.8492,174.7653
+Porto,Portugal,41.1495,-8.6108
+Hanoi,Viet Nam,21,105.85
+Hamilton,Canada,43.2567,-79.8692
+Brussels,Belgium,50.8467,4.3525
+Delta,Canada,49.0847,-123.0586
+Huntington,United States of America,40.8521,-73.3823
+Huntington,United States of America,38.4109,-82.4345
+Huntington,United States of America,40.881,-85.5063
+Huntington,United States of America,38.7916,-77.074
+Indianapolis,United States of America,39.7771,-86.1458
+Okayama,Japan,34.65,133.9167
+Samarkand,Uzbekistan,39.6547,66.9758
+Alpes-Maritimes,France,43.75,7.25
+Ravenna,Italy,44.4161,12.2017
+Madison,United States of America,43.0822,-89.393
+Madison,United States of America,34.7114,-86.7626
+Madison,United States of America,32.4738,-90.13
+Madison,United States of America,40.7586,-74.4169
+Madison,United States of America,38.7581,-85.3973
+Tianzhong Township,Taiwan,23.725,120.5667
+Verbania,Italy,45.9228,8.5519
+Chonburi,Thailand,13.3,100.9833
+Charlotte,United States of America,35.2083,-80.8303
+Charlotte,United States of America,42.5662,-84.8304
+Richmond,United States of America,37.5295,-77.4756
+Richmond,United States of America,37.9477,-122.3389
+Richmond,United States of America,39.8318,-84.8905
+Richmond,United States of America,37.7307,-84.2925
+Richmond,United States of America,29.5824,-95.7563
+Larnaka,Cyprus,34.92,33.64
+Kobe,Japan,34.6901,135.1955
+Deauville,France,49.3667,0.0833
+Verona,Italy,45.4386,10.9928
+Borobudur,Indonesia,-7.6079,110.2038
+Nepalgunj,Nepal,28.0167,81.6167
+Brasília,Brazil,-15.7939,-47.8828
+Tulsa,United States of America,36.1283,-95.9042
+Philadelphia,United States of America,40.0077,-75.1339
+Halong City,Viet Nam,20.95,107.05
+San Sebastian,Spain,43.3183,-1.9812
+Kuwait City,Kuwait,29.3697,47.9783
+Bangkok,Thailand,13.7525,100.4942
+Shanghai,China,31.2286,121.4747
+Willemstad,Curacao,12.105,-68.939
+Santiago De Los Caballeros,Dominican Republic,19.4572,-70.6889
+Seattle,United States of America,47.6211,-122.3244
+Whanganui,New Zealand,-39.9325,175.0519
+Tsukuba City,Japan,36.082,140.094
+Cocoa,United States of America,28.382,-80.7675
+La Rochelle,France,46.16,-1.15
+Hanoi,Viet Nam,21,105.85
+Lanzarote,Spain,29.046,-13.589
+Memphis,United States of America,35.1087,-89.9663
+Memphis,United States of America,27.5435,-82.5608
+Grand Cayman,Cayman Islands,19.3131,-81.2546
+Pune,India,18.5203,73.8567
+Sacramento,United States of America,38.5677,-121.4685
+Hofu,Japan,34.3833,131.5667
+Valencia,Spain,39.47,-0.3764
+Bridgetown,Barbados,13.0969,-59.6131
+Nanning,China,22.8167,108.3275
+Singapore,Singapore,1.3,103.8
+Ho Chi Minh City,Viet Nam,10.8231,106.6297
+Jacksonville,United States of America,30.3322,-81.6749
+Jacksonville,United States of America,34.7289,-77.3941
+Jacksonville,United States of America,34.8807,-92.1304
+Jacksonville,United States of America,39.7292,-90.2317
+Jacksonville,United States of America,33.8088,-85.7545
+Jacksonville,United States of America,31.9642,-95.2617
+Abu Dhabi,United Arab Emirates,24.4667,54.3667
+Reggio Emilia,Italy,44.7,10.6333
+Dallas,United States of America,32.7935,-96.7667
+Dallas,United States of America,44.9221,-123.313
+Dallas,United States of America,33.9152,-84.8416
+Dallas,United States of America,41.3608,-75.9656
+Monterrey,Mexico,25.6844,-100.3181
+West Palm Beach,United States of America,26.7469,-80.132
+Vasco Do Gama Goa,India,15.2993,74.124
+Nara,Japan,34.6844,135.805
+Yamanashi Prefecture,Japan,35.6639,138.5683
+Tucson,United States of America,32.1541,-110.8787
+Biloxi,United States of America,30.4426,-88.9514
+Hilo,United States of America,19.6883,-155.0863
+Can Tho City,Viet Nam,10.045,105.746
+Nongkhai,Thailand,17.8763,102.7433
+Pisa,Italy,43.7167,10.4
+Guangzhou,China,23.13,113.26
+Hai Phong,Viet Nam,20.8449,106.6889
+Phnom Penh,Cambodia,11.5696,104.921
+Carmel,United States of America,39.965,-86.146
+Carmel,United States of America,41.3899,-73.7239
+Hilton Head,United States of America,32.2163,-80.7526
