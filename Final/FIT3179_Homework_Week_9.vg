@@ -27,21 +27,35 @@
                 "key": "Country",
                 "fields": ["Count"]
             }
+            },
+            {
+            "lookup": "properties.NAME_EN",
+            "from": {
+                "data": {
+                "url": "https://raw.githubusercontent.com/hamishroberts-159/FIT3179-Visualisation2/refs/heads/main/CountriesCount.csv"
+                },
+                "key": "Country",
+                "fields": ["Population"]
+            }
+            },
+            {
+                "calculate": "datum.Count / datum.Population * 1000000",
+                "as": "MarathonsPerMillion"
             }
         ],
         "mark": {"type": "geoshape", "stroke": "lightgrey"},
         "encoding": {
             "color": {
-            "field": "Count",
+            "field": "MarathonsPerMillion",
             "type": "quantitative",
             "scale": {
                 "type": "threshold",
-                "domain": [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 7.5, 10, 12, 14.5, 20.5, 25.5, 150],
+                "domain": [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.5, 2],
                 "range": ["#e6f0ff", "#d9ebff", "#cce4ff", "#b8dbff", "#a3d1ff", "#85c5ff", "#5fb5ff", "#339eff", "#1a82e0", "#1466b3", "#0f518a", "#0a3c66",  "#072f50", "#062544"]
             },
             "legend": {
                 "title": "Number of Marathons",
-                "titleAlign": "left"
+                "titleAlign": "right"
             }
             },
             "tooltip": [
