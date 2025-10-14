@@ -54,8 +54,8 @@
                 "range": ["#e6f0ff", "#d9ebff", "#cce4ff", "#b8dbff", "#a3d1ff", "#85c5ff", "#5fb5ff", "#339eff", "#1a82e0", "#1466b3", "#0f518a", "#0a3c66",  "#072f50", "#062544"]
             },
             "legend": {
-                "title": "Number of Marathons",
-                "titleAlign": "right"
+                "title": "Marathons per Million",
+                "titleAlign": "left"
             }
             },
             "tooltip": [
