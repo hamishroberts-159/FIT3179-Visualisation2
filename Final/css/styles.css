@@ -3,15 +3,17 @@ body *{
 }
 
 h1 {
+    font-family: "BBH Sans Bogle", sans-serif;
     font-weight: 900;
+    font-style: normal;
 }
 
 body {
-    background-color: lightgray;
+    background-color: lightsteelblue;
 }
 
 .page {
-    width: 850px;
+    width: 1000px;
     background-color: white;
     margin: auto;
     padding: 50px;
