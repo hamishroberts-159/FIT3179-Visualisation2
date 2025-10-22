@@ -1,0 +1,77 @@
+{ 
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json", 
+  "width": 300, 
+  "height": 300, 
+  "title": {
+    "text": "Which Continents Have the Most Marathons?", 
+    "fontSize": 20
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/hamishroberts-159/FIT3179-Visualisation2/refs/heads/main/Final/MarathonsByContinent.csv"
+  },
+  "transform": [
+    {
+        "window": [
+            {
+                "op": "sum",
+                "field": "Sum",
+                "as": "TotalEvents"
+            }
+        ],
+        "frame": [null, null]
+    },
+    {
+        "calculate": "datum.Sum/datum.TotalEvents",
+        "as": "percent"
+    },
+    {
+        "window": [
+        {"op": "sum", "field": "Sum", "as": "cumulative"}
+        ],
+        "sort": [{"field": "Continent"}]
+    },
+    {
+        "calculate": "datum.cumulative - datum.Sum/2",
+        "as": "midpoint"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "arc", 
+        "innerRadius": 80, 
+        "outerRadius": 120
+      },
+      "encoding": {
+        "theta": {"field": "Sum", "type": "quantitative", "stack": true},
+        "color": {
+          "field": "Continent",
+          "type": "nominal",
+          "legend": {"title": "Continent"}
+        },
+        "tooltip": [
+            {"field": "Continent", "type": "nominal"},
+            {"field": "Sum", "type": "quantitative", "title": "Marathon Events"},
+            {"field": "percent", "type": "quantitative", "format": ".1%", "title": "Share of Total"}
+        ]
+      }
+    },
+    {
+        "mark": {
+            "type": "text",
+            "radius": 100,
+            "align": "center",
+            "baseline": "middle",
+            "fontSize": 11,
+            "fontWeight": "bold",
+            "limit": 60
+        },
+        "encoding": {
+            "text": {"field": "percent", "type": "quantitative", "format": ".0%"},
+            "theta": {"field": "midpoint", "type": "quantitative"},
+            "color": {"value": "black"}
+      }
+    }
+  ],
+  "view": {"stroke": null}
+}
