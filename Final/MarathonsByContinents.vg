@@ -39,7 +39,7 @@
     {
       "mark": {
         "type": "arc", 
-        "innerRadius": 80, 
+        "innerRadius": 70, 
         "outerRadius": 120
       },
       "encoding": {
@@ -59,7 +59,7 @@
     {
         "mark": {
             "type": "text",
-            "radius": 100,
+            "radius": 95,
             "align": "center",
             "baseline": "middle",
             "fontSize": 11,
