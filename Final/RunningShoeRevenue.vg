@@ -23,7 +23,8 @@
                 "type": "ordinal", 
                 "axis": {
                     "labelAngle": 0
-                }
+                },
+                "title": "Year"
             },
             "y": {"field": "value", "type": "quantitative", "title": "Revenue (Billions of US$)"}
         }
