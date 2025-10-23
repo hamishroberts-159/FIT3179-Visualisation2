@@ -1,0 +1,50 @@
+{ 
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json", 
+  "width": 300, 
+  "height": 500, 
+  "title": {
+    "text": "Global Running Footwear Revenue", 
+    "fontSize": 20
+  },
+  "data": {
+    "values": [
+      {"year": "2022", "value": 18.5},
+      {"year": "2023", "value": 19.6},
+      {"year": "2024", "value": 20.6},
+      {"year": "2025", "value": 22.1}
+    ]
+  },
+  "layer": [
+    {
+        "mark": {"type": "bar", "width": {"band": 0.8}},
+        "encoding": {
+            "x": {
+                "field": "year", 
+                "type": "ordinal", 
+                "axis": {
+                    "labelAngle": 0
+                }
+            },
+            "y": {"field": "value", "type": "quantitative", "title": "Revenue (Billions of US$)"}
+        }
+    },
+    {
+        "mark": {
+            "type": "text",
+            "align": "center",
+            "baseline": "top",
+            "dy": -14,
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "fontStyle": "italic"
+        },
+        "encoding": {
+        "x": {"field": "year", "type": "ordinal"},
+        "y": {"field": "value", "type": "quantitative"},
+        "text": {"field": "value", "type": "quantitative", "format": ","},
+        "color": {"value": "black"}
+        }
+    }
+  ],
+  "view": {"stroke": null}
+}
