@@ -1,0 +1,49 @@
+{ 
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json", 
+  "width": 400, 
+  "height": 200, 
+  "title": {
+    "text": "Run Club Participation Globally", 
+    "fontSize": 20
+  },
+  "data": {
+    "values": [
+      {"year": "2023", "value": 1.00},
+      {"year": "2024", "value": 1.59}
+    ]
+  },
+  "layer": [
+    {
+        "mark": {"type": "bar", "width": {"band": 0.8}},
+        "encoding": {
+            "y": {
+                "field": "year", 
+                "type": "ordinal", 
+                "axis": {
+                    "title": "Year",
+                    "titleAngle": 0
+                }
+            },
+            "x": {"field": "value", "type": "quantitative", "title": "Participation (Relative to 2023)"}
+        }
+    },
+    {
+        "mark": {
+            "type": "text",
+            "align": "center",
+            "baseline": "top",
+            "dx": -20,
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "fontStyle": "italic"
+        },
+        "encoding": {
+        "y": {"field": "year", "type": "ordinal"},
+        "x": {"field": "value", "type": "quantitative"},
+        "text": {"field": "value", "type": "quantitative", "format": ","},
+        "color": {"value": "white"}
+        }
+    }
+  ],
+  "view": {"stroke": null}
+}
