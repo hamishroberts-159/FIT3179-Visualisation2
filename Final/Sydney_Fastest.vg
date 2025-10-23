@@ -32,10 +32,7 @@
     "x": {
       "field": "Year",
       "type": "ordinal",
-      "title": "Year",
-      "axis": {
-                    "labelAngle": 0
-                }
+      "title": "Year"
     },
     "y": {
       "field": "time_hours",
