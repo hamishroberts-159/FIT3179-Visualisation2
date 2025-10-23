@@ -1,0 +1,53 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 300,
+  "height": 300,
+  "title": {
+    "text": "2025 Sydney Marathon Ballot", 
+    "fontSize": 20
+  },
+  "data": {
+    "values": [
+      {"category": "Successful Entries", "value": 38870},
+      {"category": "Unsuccessful Entries", "value": 40130}
+    ]
+  },
+  "transform": [
+    {"calculate": "datum.value / 79000 * 100", "as": "percent"}
+  ],
+  "layer": [
+    {
+      "mark": {"type": "arc", "innerRadius": 80, "outerRadius": 120},
+      "encoding": {
+        "theta": {"field": "value", "type": "quantitative"},
+        "color": {
+          "field": "category",
+          "type": "nominal",
+          "scale": {"range": ["#4e79a7", "#e15759"]},
+          "legend": {"title": "Outcome"}
+        },
+        "tooltip": [
+          {"field": "category", "title": "Outcome"},
+          {"field": "value", "title": "People"},
+          {"field": "percent", "title": "Percentage", "format": ".1f"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "align": "center",
+        "baseline": "middle",
+        "color": "#4e79a7"
+      },
+      "encoding": {
+        "text": {
+          "datum": "49.2% Accepted"
+        }
+      }
+    }
+  ],
+  "view": {"stroke": null}
+}
