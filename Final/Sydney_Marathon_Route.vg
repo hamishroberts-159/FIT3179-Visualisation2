@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json", 
-  "width": 350, 
-  "height": 400, 
+  "width": 300, 
+  "height": 300, 
   "title": {
     "text": "Sydney Marathon Route", 
     "fontSize": 20
@@ -167,7 +167,7 @@
             {"lat": -33.857995, "lon": 151.214705, "label": "Finish"}
             ]
         },
-        "mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 5, "dy": -5},
+        "mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 2, "dy": -3},
         "encoding": {
             "longitude": {"field": "lon", "type": "quantitative"},
             "latitude": {"field": "lat", "type": "quantitative"},
