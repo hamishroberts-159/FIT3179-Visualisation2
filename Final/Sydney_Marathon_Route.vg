@@ -9,7 +9,7 @@
   "projection": {
     "type": "mercator",
     "center": [151.25, -33.89],
-    "scale": 115000
+    "scale": 100000
 },
   "data": {
     "url": "https://raw.githubusercontent.com/hamishroberts-159/FIT3179-Visualisation2/refs/heads/main/Final/sydney_100.json",
