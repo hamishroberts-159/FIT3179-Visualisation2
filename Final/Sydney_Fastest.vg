@@ -1,0 +1,58 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json", 
+  "width": 600, 
+  "height": 400, 
+  "title": {
+    "text": "Sydney Marathon Fastest Finish Times", 
+    "fontSize": 20
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/hamishroberts-159/FIT3179-Visualisation2/refs/heads/main/Sydney_Marathon_Entrants_by_Year.csv"
+  },
+  "transform": [
+    {
+      "fold": ["Fastest Finish Time - Male", "Fastest Finish Time - Female"],
+      "as": ["gender", "time"]
+    },
+    {
+      "calculate": "datum.gender == 'Fastest Finish Time - Male' ? 'Male' : 'Female'",
+      "as": "gender_label"
+    },
+    {
+      "calculate": "toNumber(split(datum.time, ':')[0]) + toNumber(split(datum.time, ':')[1]) / 60 + toNumber(split(datum.time, ':')[2]) / 3600",
+      "as": "time_hours"
+    }
+  ],
+  "mark": {
+    "type": "line",
+    "point": true,
+    "strokeWidth": 3
+  },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "title": "Year"
+    },
+    "y": {
+      "field": "time_hours",
+      "type": "quantitative",
+      "title": "Winning Time (hours)",
+      "scale": {"reverse": true},
+      "axis": {
+        "labelExpr": "format(floor(datum.value), '02') + ':' + format((datum.value - floor(datum.value)) * 60, '02.0f')"
+      }
+    },
+    "color": {
+      "field": "gender_label",
+      "type": "nominal",
+      "title": "Gender",
+      "scale": {"domain": ["Male", "Female"], "range": ["#1f77b4", "#e377c2"]}
+    },
+    "tooltip": [
+      {"field": "Year", "title": "Year"},
+      {"field": "gender_label", "title": "Gender"},
+      {"field": "time", "title": "Fastest Time"}
+    ]
+  }
+}
