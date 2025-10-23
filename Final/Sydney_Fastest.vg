@@ -37,7 +37,7 @@
     "y": {
       "field": "time_hours",
       "type": "quantitative",
-      "title": "Winning Time (hours)",
+      "title": "Fastest Finishing Time (Hours)",
       "scale": {"reverse": true},
       "axis": {
         "labelExpr": "format(floor(datum.value), '02') + ':' + format((datum.value - floor(datum.value)) * 60, '02.0f')"
