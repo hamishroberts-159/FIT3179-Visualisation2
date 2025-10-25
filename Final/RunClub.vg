@@ -45,7 +45,7 @@
             },
             "x": {"field": "value", "type": "quantitative", "title": "Participation (Relative to 2023)"},
             "tooltip": [
-            {"field": "year", "type": "ordinal"},
+            {"field": "year", "type": "ordinal", "title": "Year"},
             {"field": "value", "type": "quantitative", "title": "Participation (Relative to 2023)"}
         ]
         }

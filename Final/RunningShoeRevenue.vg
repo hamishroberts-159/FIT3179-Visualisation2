@@ -47,7 +47,7 @@
             },
             "y": {"field": "value", "type": "quantitative", "title": "Revenue (Billions of US$)"},
             "tooltip": [
-            {"field": "year", "type": "ordinal"},
+            {"field": "year", "type": "ordinal", "title": "Year"},
             {"field": "value", "type": "quantitative", "title": "Revenue (Billions of US$)"}
         ]
         }
