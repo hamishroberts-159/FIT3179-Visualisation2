@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Import Vega & Vega-Lite -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+    integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="FIT3179_Homework_Week_10_JavaScript.js"></script>
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+  
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+
+</head>
+<body>
+  <div class="page">
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <h1><strong>WHAT IS BEHIND RUNNING'S RECENT SURGE IN POPULARITY?</strong></h1> 
+        <div class="description description-left"></div>
+        <p>Participation in running has exploded in recent years, going from what was once widely viewed as an onerous burden in order to stay fit – something people did because they had to, not because they enjoyed, with marathons only run by a crazy and unachievable niche, to something seemingly everyone is doing. In 2025, it is estimated that over 2.65 million Australians will run at least once a month, and with running influencers becoming some of the most popular accounts on Instagram and TikTok, it has been impossible not to notice this profound shift in popular perception of this sport. But what has caused this sudden shift? </p>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-2-5">
+        <div id="revenue_bar" class="vis-container"></div>
+      </div>
+      <div class="pure-u-3-5">
+        <div class="description description-right"></div>
+        <h3> </h3>
+        <p>The sales of running shoes globally have continued to increase year-on-year, growing by over 71% between 2019 and 2022, where it totalled US$15.4 million. This is a reflection of the increasing participation numbers within running, with more and more people picking up the sport. However, it also points to people wanting to spend more money than ever before on purchasing the highest performing running shoes, with comfort, style and performance all playing a role. This is a signal of the shifting attitude towards running, with individuals being willing to spend more on high quality shoes as running has become a passion and a hobby for so many people. It is also becoming something people want to succeed in and do well at, as opposed to simply doing it because they have to, meaning shoes that promise faster times will be prioritised by many runners.</p>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <div class="description description-left"></div>
+        <h4> </h4>
+        <p>One key factor behind running’s popularity is the growth of run clubs. Run clubs turn an otherwise individual pursuit into a social outing, combining the fitness benefits of running with an opportunity to connect with other like-minded people. Run clubs thus play a crucial role in helping to promote running, with music, passionate leaders, and the support of all other members helping to make running more appealing. According to Strava, there was a 59% increase in run club participation between 2023 and 2024, possibly helping to explain part of the reason why running has become so popular.</p>
+      </div>
+      <div class="pure-u-1-2">
+        <div id="run_club_bar" class="vis-container"></div>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div id="map" class="vis-container"></div>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <div class="description description-left"></div>
+        <p>This increase in running popularity has resulted in more and more marathon events popping up around the world, with there currently being 437 ‘Abbott World Marathon’ races held globally. Cyprus, New Zealand, Ireland, and Norway have the highest number of marathons per capita amongst countries with more than one event, whilst the United States has by far and away the highest overall number of events with 184, the next highest being Canada with 25. This translates to North America having 51% of marathons worldwide, followed by Europe and Asia with 20% and 19% respectively. Whilst there are some regions where marathons events are densely located, there are also vast regions of Africa, South America, Asia, and Antarctica where options for marathons are limited, potentially indicating that running at the moment is most popular in North America, Europe and Oceania.</p>
+      </div>
+      <div class="pure-u-1-2">
+        <div id="continents_donut" class="vis-container"></div>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div class="description description-left"></div>
+        <h2>WHY HAS THE SYDNEY MARATHON BECOME SO POPULAR?</h2> 
+        <p>One particular marathon event that has dramatically increased in popularity in recent years is the Sydney Marathon. 2025 was the first year Sydney was included as an ‘Abbott World Marathon Major’, joining London, Tokyo, Boston, Berlin, Chicago, and New York City to become one of seven worldwide. With its highest participation numbers ever this year, the race provides a snapshot of the broader Australian running landscape. </p>
+        <div id="stacked_bar" class="vis-container"></div>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+    
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <div class="description description-left"></div>
+        <p>The Sydney Marathon has seen a sudden increase in participation over the last three years, going from a relatively stable level of about 2-4 thousand finishers per year from 2008-2022, to 13,293 in 2023, 20,283 in 2024, and 32,979 in 2025, representing an unprecedented level of popularity. Interestingly, these numbers greatly outnumbered the participation levels of the first ever Sydney Marathon, then referred to as the ‘Host City Marathon’, even with the excitement of being the test event for the 2000 Sydney Olympics. Due to this overwhelming demand, an entry ballot system was introduced in 2025, which saw 79,000 people apply. If all ballot entrants were accepted, this would have been a 1388.88% increase in participation from 2022. Due to size restraints, only 38,870 people were accepted from the ballot, representing a 49.2% acceptance rate. Participation from females has also seen a dramatic increase, with a greater ratio of finishers being female. Women represented 34.8% of all finishers in 2025, a 10.6% increase from the proportion in 2022.</p>
+      </div>
+      <div class="pure-u-1-2">
+        <h2> </h2>
+        <div id="ballot_donut" class="vis-container"></div>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-2-5">
+        <div id="sydney_route" class="vis-container"></div>
+      </div>
+      <div class="pure-u-3-5">
+        <div class="description description-right"></div>
+        <h3></h3>
+        <p>Whilst there are many reasons why individuals would want to participate in the Sydney Marathon, its spectacular route certainly helps to make it more appealing. Beginning in North Sydney Oval, participants then run over the Sydney Harbour Bridge and around Darling Harbour, before looping back up through The Rocks and down past Hyde Park. A long loop then sees runners go through Moore Park and past Royal Randwick, before looping around Centennial Park. Approaching the end, participants then run through the Royal Botanic Garden before finishing in front of the steps of the Sydney Opera House. This course pays homage to the 2000 Sydney Olympic Marathon, with identical start and finish locations, and allows participants to get a tour of some of the best sights Sydney has to offer, including the rare opportunity to run over the Sydney Harbour Bridge while it is closed off to traffic.</p>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div id="sydney_fastest_finisher" class="vis-container"></div>
+        <div class="description description-left"></div>
+        <p>The fastest finishing times for the Sydney Marathon have slowly been getting faster each year. Both the male and female records were broken in 2025, with Hailemaryam Kiros Kebedew’s time of 2:06:06, and Sifan Hassan’s time of 2:18:22 being the fastest ever Sydney Marathon finish times for men and women respectively. This is likely a reflection of Sydney Marathon’s growing recognition on a global scale, with more and more professional international athletes choosing to compete, whilst also been supported by the global increase in running participation overall. However, whilst the fastest finish times have continued to improve, it is interesting to note that the average finish time has remained relatively stagnant, suggesting that with the increased participation in running overall, the most important thing remains the individual satisfaction runners can achieve from putting their mind towards a difficult task like a marathon, and seeing themselves achieve what they never thought was possible. Ultimately, getting out there and participating will always be more important than the speed at which they run.</p>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div id="sydney_fastest_finisher" class="vis-container"></div>
+        <div class="source source-font"></div>
+        <h4>Sources:</h4>
+        <h4>https://www.worldmarathonmajors.com/races</h4>
+        <h4>https://simplemaps.com/data/world-cities</h4>
+        <h4>https://simplemaps.com/data/countries</h4>
+        <h4>https://www.naturalearthdata.com/downloads/</h4>
+        <h4>https://ausrunning.net/marathon/sydney-v3-2024</h4>
+        <h4>https://results.timingsports.com/srf/2019/</h4>
+        <h4>https://www.sportsplits.com/races/sydney-runnig-festival-2001/events/1/results/individuals/5</h4>
+        <h4>https://marathonview.net/race/137217</h4>
+        <h4>https://runrepeat.com/running-shoes-statistics</h4>
+        <h4>https://press.strava.com/articles/strava-releases-annual-year-in-sport-trend</h4>
+        <h4>https://run2.au/how-many-australian-adults-run-new-data-says-3-5-million-but-most-go-it-alone/</h4>
+        <h4>https://www.tcssydneymarathon.com/course</h4>
+        <h4>https://www.google.com/maps</h4>
+        <h4>https://www.fieldmag.com/articles/why-is-running-so-popular</h4>
+        <h4>https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/sydney-marathon-ballot-overrun-international-entries</h4>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+  </div> <!-- end page -->
+
+  <script type="text/javascript">
+    var vg_1 = "https://raw.githubusercontent.com/hamishroberts-159/FIT3179-Visualisation2/refs/heads/main/Final/FIT3179_Homework_Week_9.vg";
+    var vg_2 = "https://raw.githubusercontent.com/hamishroberts-159/FIT3179-Visualisation2/refs/heads/main/FIT3179_Homework_Week_10.vg";
+    var vg_3 = "https://raw.githubusercontent.com/hamishroberts-159/FIT3179-Visualisation2/refs/heads/main/Final/Sydney_Sankey.vg";
+    var vg_4 = "https://raw.githubusercontent.com/hamishroberts-159/FIT3179-Visualisation2/refs/heads/main/Final/MarathonsByContinents.vg";
+    var vg_5 = "https://raw.githubusercontent.com/hamishroberts-159/FIT3179-Visualisation2/refs/heads/main/Final/RunningShoeRevenue.vg";
+    var vg_6 = "https://raw.githubusercontent.com/hamishroberts-159/FIT3179-Visualisation2/refs/heads/main/Final/RunClub.vg";
+    var vg_7 = "https://raw.githubusercontent.com/hamishroberts-159/FIT3179-Visualisation2/refs/heads/main/Final/Sydney_Marathon_Route.vg";
+    var vg_8 = "https://raw.githubusercontent.com/hamishroberts-159/FIT3179-Visualisation2/refs/heads/main/Final/Sydney_Fastest.vg";
+
+    vegaEmbed("#map", vg_1, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
+    }).catch(console.error);
+
+    vegaEmbed("#stacked_bar", vg_2, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
+    }).catch(console.error);
+
+    vegaEmbed("#ballot_donut", vg_3, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
+    }).catch(console.error);
+
+    vegaEmbed("#continents_donut", vg_4, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
+    }).catch(console.error);
+
+    vegaEmbed("#revenue_bar", vg_5, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
+    }).catch(console.error);
+
+    vegaEmbed("#run_club_bar", vg_6, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
+    }).catch(console.error);
+
+    vegaEmbed("#sydney_route", vg_7, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
+    }).catch(console.error);
+    
+    vegaEmbed("#sydney_fastest_finisher", vg_8, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view 
+    }).catch(console.error);
+  </script>
+</body>
+</html>
+
