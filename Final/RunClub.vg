@@ -44,6 +44,7 @@
                 }
             },
             "x": {"field": "value", "type": "quantitative", "title": "Participation (Relative to 2023)"},
+            "color": {"value": "#74a4c4"},
             "tooltip": [
             {"field": "year", "type": "ordinal", "title": "Year"},
             {"field": "value", "type": "quantitative", "title": "Participation (Relative to 2023)"}
@@ -63,7 +64,7 @@
         "encoding": {
         "y": {"field": "year", "type": "ordinal"},
         "x": {"field": "value", "type": "quantitative"},
-        "text": {"field": "value", "type": "quantitative", "format": ","},
+        "text": {"field": "value", "type": "quantitative", "format": ".2f"},
         "color": {"value": "white"}
         }
     }

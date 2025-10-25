@@ -46,6 +46,7 @@
                 "title": "Year"
             },
             "y": {"field": "value", "type": "quantitative", "title": "Revenue (Billions of US$)"},
+            "color": {"value": "#74a4c4"},
             "tooltip": [
             {"field": "year", "type": "ordinal", "title": "Year"},
             {"field": "value", "type": "quantitative", "title": "Revenue (Billions of US$)"}
