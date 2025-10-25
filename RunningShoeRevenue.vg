@@ -1,0 +1,74 @@
+{ 
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json", 
+  "width": 300, 
+  "height": 250, 
+  "title": {
+    "text": "Global Running Shoe Revenue", 
+    "fontSize": 20
+  },
+  "config": {
+   "font": "Roboto Slab",
+   "title": {
+     "font": "Roboto Slab",
+     "fontSize": 20
+   },
+   "axis": {
+     "labelFont": "Roboto Slab",
+     "titleFont": "Roboto Slab"
+   },
+   "legend": {
+     "labelFont": "Roboto Slab",
+     "titleFont": "Roboto Slab"
+   },
+   "header": {
+     "labelFont": "Roboto Slab",
+     "titleFont": "Roboto Slab"
+   }
+  },
+  "data": {
+    "values": [
+      {"year": "2019", "value": 9.0},
+      {"year": "2020", "value": 10.0},
+      {"year": "2021", "value": 12.6},
+      {"year": "2022", "value": 15.4}
+    ]
+  },
+  "layer": [
+    {
+        "mark": {"type": "bar", "width": {"band": 0.8}},
+        "encoding": {
+            "x": {
+                "field": "year", 
+                "type": "ordinal", 
+                "axis": {
+                    "labelAngle": 0
+                },
+                "title": "Year"
+            },
+            "y": {"field": "value", "type": "quantitative", "title": "Revenue (Billions of US$)"},
+            "tooltip": [
+            {"field": "year", "type": "ordinal"},
+            {"field": "value", "type": "quantitative", "title": "Revenue (Billions of US$)"}
+        ]
+        }
+    },
+    {
+        "mark": {
+            "type": "text",
+            "align": "center",
+            "baseline": "top",
+            "dy": 14,
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "fontStyle": "italic"
+        },
+        "encoding": {
+        "x": {"field": "year", "type": "ordinal"},
+        "y": {"field": "value", "type": "quantitative"},
+        "text": {"field": "value", "type": "quantitative", "format": ","},
+        "color": {"value": "white"}
+        }
+    }
+  ],
+  "view": {"stroke": null}
+}
