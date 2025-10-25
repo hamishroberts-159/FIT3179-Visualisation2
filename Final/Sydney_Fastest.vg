@@ -1,10 +1,29 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json", 
-  "width": 600, 
+  "width": 1000, 
   "height": 400, 
   "title": {
     "text": "Sydney Marathon Fastest Finish Times", 
     "fontSize": 20
+  },
+  "config": {
+   "font": "Roboto Slab",
+   "title": {
+     "font": "Roboto Slab",
+     "fontSize": 20
+   },
+   "axis": {
+     "labelFont": "Roboto Slab",
+     "titleFont": "Roboto Slab"
+   },
+   "legend": {
+     "labelFont": "Roboto Slab",
+     "titleFont": "Roboto Slab"
+   },
+   "header": {
+     "labelFont": "Roboto Slab",
+     "titleFont": "Roboto Slab"
+   }
   },
   "data": {
     "url": "https://raw.githubusercontent.com/hamishroberts-159/FIT3179-Visualisation2/refs/heads/main/Sydney_Marathon_Entrants_by_Year.csv"
