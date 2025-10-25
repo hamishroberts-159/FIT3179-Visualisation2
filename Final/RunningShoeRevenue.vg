@@ -6,6 +6,26 @@
     "text": "Global Running Shoe Revenue", 
     "fontSize": 20
   },
+  "config": {
+   "font": "Roboto Slab",
+   "title": {
+     "font": "Roboto Slab",
+     "fontSize": 20,
+     "fontWeight": "bold"
+   },
+   "axis": {
+     "labelFont": "Roboto Slab",
+     "titleFont": "Roboto Slab"
+   },
+   "legend": {
+     "labelFont": "Roboto Slab",
+     "titleFont": "Roboto Slab"
+   },
+   "header": {
+     "labelFont": "Roboto Slab",
+     "titleFont": "Roboto Slab"
+   }
+  },
   "data": {
     "values": [
       {"year": "2019", "value": 9.0},
