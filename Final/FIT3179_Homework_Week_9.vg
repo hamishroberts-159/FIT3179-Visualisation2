@@ -6,6 +6,25 @@
     "text": "Where are Marathon Events Held?", 
     "fontSize": 20
   },
+  "config": {
+   "font": "Roboto Slab",
+   "title": {
+     "font": "Roboto Slab",
+     "fontSize": 20
+   },
+   "axis": {
+     "labelFont": "Roboto Slab",
+     "titleFont": "Roboto Slab"
+   },
+   "legend": {
+     "labelFont": "Roboto Slab",
+     "titleFont": "Roboto Slab"
+   },
+   "header": {
+     "labelFont": "Roboto Slab",
+     "titleFont": "Roboto Slab"
+   }
+  },
   "projection": {"type": "equalEarth"},
   "data": {
     "url": "https://raw.githubusercontent.com/hamishroberts-159/FIT3179-Visualisation2/refs/heads/main/ne_110m.json",

@@ -1,6 +1,30 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "2025 Sydney Marathon Ballot",
+  "width": 300,
+  "height": 300,
+  "title": {
+    "text": "2025 Sydney Marathon Ballot", 
+    "fontSize": 20
+  },
+  "config": {
+   "font": "Roboto Slab",
+   "title": {
+     "font": "Roboto Slab",
+     "fontSize": 20
+   },
+   "axis": {
+     "labelFont": "Roboto Slab",
+     "titleFont": "Roboto Slab"
+   },
+   "legend": {
+     "labelFont": "Roboto Slab",
+     "titleFont": "Roboto Slab"
+   },
+   "header": {
+     "labelFont": "Roboto Slab",
+     "titleFont": "Roboto Slab"
+   }
+  },
   "data": {
     "values": [
       {"category": "Successful Entries", "value": 38870},
@@ -44,7 +68,5 @@
       }
     }
   ],
-  "view": {"stroke": null},
-  "width": 300,
-  "height": 300
+  "view": {"stroke": null}
 }
