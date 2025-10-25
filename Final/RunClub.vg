@@ -1,7 +1,7 @@
 { 
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json", 
   "width": 400, 
-  "height": 200, 
+  "height": 150, 
   "title": {
     "text": "Run Club Participation Globally", 
     "fontSize": 20
