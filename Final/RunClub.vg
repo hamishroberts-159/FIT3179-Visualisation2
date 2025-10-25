@@ -6,6 +6,25 @@
     "text": "Run Club Participation Globally", 
     "fontSize": 20
   },
+  "config": {
+   "font": "Roboto Slab",
+   "title": {
+     "font": "Roboto Slab",
+     "fontSize": 20
+   },
+   "axis": {
+     "labelFont": "Roboto Slab",
+     "titleFont": "Roboto Slab"
+   },
+   "legend": {
+     "labelFont": "Roboto Slab",
+     "titleFont": "Roboto Slab"
+   },
+   "header": {
+     "labelFont": "Roboto Slab",
+     "titleFont": "Roboto Slab"
+   }
+  },
   "data": {
     "values": [
       {"year": "2023", "value": 1.00},
@@ -24,7 +43,11 @@
                     "titleAngle": 0
                 }
             },
-            "x": {"field": "value", "type": "quantitative", "title": "Participation (Relative to 2023)"}
+            "x": {"field": "value", "type": "quantitative", "title": "Participation (Relative to 2023)"},
+            "tooltip": [
+            {"field": "year", "type": "ordinal"},
+            {"field": "value", "type": "quantitative", "title": "Participation (Relative to 2023)"}
+        ]
         }
     },
     {

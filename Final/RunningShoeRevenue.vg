@@ -10,8 +10,7 @@
    "font": "Roboto Slab",
    "title": {
      "font": "Roboto Slab",
-     "fontSize": 20,
-     "fontWeight": "bold"
+     "fontSize": 20
    },
    "axis": {
      "labelFont": "Roboto Slab",
@@ -46,7 +45,11 @@
                 },
                 "title": "Year"
             },
-            "y": {"field": "value", "type": "quantitative", "title": "Revenue (Billions of US$)"}
+            "y": {"field": "value", "type": "quantitative", "title": "Revenue (Billions of US$)"},
+            "tooltip": [
+            {"field": "year", "type": "ordinal"},
+            {"field": "value", "type": "quantitative", "title": "Revenue (Billions of US$)"}
+        ]
         }
     },
     {
