@@ -66,7 +66,11 @@
         "color": {
           "field": "Continent",
           "type": "nominal",
-          "legend": {"title": "Continent"}
+          "legend": {"title": "Continent"},
+          "scale": {
+            "domain": ["Africa","Asia","Europe","North America","Oceania","South America"],
+            "range": ["#74a4c4","orange","#d66b6b","#74c4b4","yellow","#88c474"]
+          }
         },
         "tooltip": [
             {"field": "Continent", "type": "nominal"},
